@@ -32,7 +32,7 @@ class MapsFragment : Fragment(), OnMapReadyCallback {
     private val fusedLocationProviderClient by lazy {
         LocationServices.getFusedLocationProviderClient(requireContext())
     }
-
+//
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
